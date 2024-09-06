@@ -1,0 +1,10 @@
+#我在运行open3d ml时遇到了这样的报错，有没有大神帮孩子看看到底为什么，很急！！
+C:\Anaconda\envs\open3d-pytorch\python.exe C:\pycharm\open3d-ml_03\main.py 
+Traceback (most recent call last):
+  File "C:\pycharm\open3d-ml_03\main.py", line 1, in <module>
+    import open3d.ml.torch as ml3d  # or open3d.ml.tf as ml3d
+  File "C:\Users\JIA\AppData\Roaming\Python\Python38\site-packages\open3d\ml\torch\__init__.py", line 15, in <module>
+    raise Exception('Open3D was not built with PyTorch support!')
+Exception: Open3D was not built with PyTorch support!
+
+Process finished with exit code 1
